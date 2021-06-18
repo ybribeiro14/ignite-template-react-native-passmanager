@@ -42,7 +42,7 @@ export function LoginDataItem({
       <ShowPasswordButton
         onPress={handleTogglePassIsVisible}
       >
-        <Icon name={passIsVisible ? "eye-off" : "eye"} />
+        <Icon name={passIsVisible ? "eye" : "eye-off" } />
       </ShowPasswordButton>
     </Container>
   );
